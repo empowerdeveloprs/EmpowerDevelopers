@@ -508,3 +508,223 @@ footer p {
   }
 
 }
+
+
+/* HIBHA WELFARE FOUNDATION */
+
+.hibha-section {
+  background: var(--surface);
+}
+
+.hibha-card {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  max-width: 950px;
+
+  padding: 38px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(16,38,61,0.95),
+      rgba(11,27,45,0.95)
+    );
+
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.hibha-logo-wrap {
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  flex-shrink: 0;
+}
+
+.hibha-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.hibha-content h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.hibha-content p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.hibha-content a {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.hibha-content small {
+  display: block;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+
+/* HIBHA MOBILE */
+
+@media (max-width: 700px) {
+
+  .hibha-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 28px 20px;
+  }
+
+  .hibha-logo-wrap {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hibha-logo {
+    width: 125px;
+    height: 125px;
+  }
+
+  .hibha-content h3 {
+    font-size: 25px;
+  }
+
+}
+
+/* LIGHT CORPORATE THEME */
+
+:root {
+  --bg: #eef2f5;
+  --surface: #f8fafb;
+  --surface-light: #e4e9ee;
+  --text: #17212b;
+  --muted: #596774;
+  --accent: #087ea4;
+  --border: rgba(23,33,43,0.12);
+}
+
+/* HIBHA — COMPACT LOGO */
+
+.hibha-card {
+  max-width: 850px;
+  padding: 30px;
+  gap: 28px;
+  background: #f8fafb;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.hibha-logo-wrap {
+  width: 115px;
+  height: 115px;
+  border-radius: 12px;
+}
+
+.hibha-logo {
+  width: 92px;
+  height: 92px;
+}
+
+.hibha-content h3 {
+  font-size: 26px;
+}
+
+.hibha-content p {
+  color: #596774;
+}
+
+@media (max-width: 700px) {
+
+  .hibha-card {
+    padding: 24px 18px;
+  }
+
+  .hibha-logo-wrap {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hibha-logo {
+    width: 78px;
+    height: 78px;
+  }
+
+}
+
+
+/* LIGHT CORPORATE THEME */
+
+:root {
+  --bg: #eef2f5;
+  --surface: #f8fafb;
+  --surface-light: #e4e9ee;
+  --text: #17212b;
+  --muted: #596774;
+  --accent: #087ea4;
+  --border: rgba(23,33,43,0.12);
+}
+
+/* HIBHA — COMPACT LOGO */
+
+.hibha-card {
+  max-width: 850px;
+  padding: 30px;
+  gap: 28px;
+  background: #f8fafb;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.hibha-logo-wrap {
+  width: 115px;
+  height: 115px;
+  border-radius: 12px;
+}
+
+.hibha-logo {
+  width: 92px;
+  height: 92px;
+}
+
+.hibha-content h3 {
+  font-size: 26px;
+}
+
+.hibha-content p {
+  color: #596774;
+}
+
+@media (max-width: 700px) {
+
+  .hibha-card {
+    padding: 24px 18px;
+  }
+
+  .hibha-logo-wrap {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hibha-logo {
+    width: 78px;
+    height: 78px;
+  }
+
+}
+
