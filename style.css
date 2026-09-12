@@ -3852,3 +3852,52 @@ body {
     padding: 24px 18px;
   }
 }
+
+/* =========================================================
+   GUARDIAN-CORE — VERIFIED TEST RESULTS
+   Public results only; no internal implementation details
+   ========================================================= */
+
+.guardian-test-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.guardian-test-results > div {
+  padding: 17px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 12px;
+  background: rgba(255,255,255,.06);
+}
+
+.guardian-test-results strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #ffffff !important;
+}
+
+.guardian-test-results span {
+  display: block;
+  color: rgba(255,255,255,.76) !important;
+  font-size: .88rem;
+  line-height: 1.55;
+}
+
+.guardian-test-results b {
+  color: #d6a84f !important;
+  font-weight: 800;
+}
+
+.guardian-verification-note {
+  margin-top: 18px !important;
+  color: rgba(255,255,255,.62) !important;
+  font-size: .84rem;
+}
+
+@media (max-width: 720px) {
+  .guardian-test-results {
+    grid-template-columns: 1fr;
+  }
+}
