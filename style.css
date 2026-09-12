@@ -3018,3 +3018,285 @@ footer a:hover {
   color: #075f78 !important;
 }
 
+
+/* =========================================================
+   GUARDIAN-CORE — FINAL COMMERCIAL PRESENTATION
+   ========================================================= */
+
+.guardian-section .guardian-content {
+  color: #ffffff;
+}
+
+.guardian-section .guardian-content > p {
+  max-width: 900px;
+  margin: 0 0 16px;
+  color: rgba(255,255,255,.82) !important;
+  line-height: 1.75;
+}
+
+.guardian-section .guardian-content .eyebrow {
+  color: #35d4bd !important;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.guardian-section .guardian-tagline {
+  color: #ffffff !important;
+  margin-bottom: 20px;
+}
+
+.guardian-section .guardian-capabilities {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 14px;
+}
+
+.guardian-section .guardian-capabilities > * {
+  display: block;
+  padding: 19px 20px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  background: rgba(255,255,255,.055);
+  color: rgba(255,255,255,.82) !important;
+  line-height: 1.55;
+}
+
+.guardian-section .guardian-capabilities > *::before {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: 0 0 10px;
+  border-radius: 50%;
+  background: #35d4bd;
+  content: "";
+}
+
+.guardian-section .guardian-capabilities strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #ffffff !important;
+  font-size: 1rem;
+}
+
+.guardian-section .guardian-capabilities span {
+  display: block;
+  color: rgba(255,255,255,.72) !important;
+}
+
+.guardian-security-model,
+.guardian-emergency,
+.guardian-commercial {
+  margin-top: 30px;
+  padding: 26px;
+  border: 1px solid rgba(255,255,255,.11);
+  border-radius: 16px;
+  background: rgba(255,255,255,.045);
+}
+
+.guardian-security-model .guardian-verified-heading,
+.guardian-emergency .guardian-verified-heading,
+.guardian-commercial .guardian-verified-heading {
+  color: #ffffff;
+}
+
+.guardian-security-model .guardian-verified-heading span,
+.guardian-emergency .guardian-verified-heading span,
+.guardian-commercial .guardian-verified-heading span {
+  color: #35d4bd !important;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+}
+
+.guardian-security-model .guardian-verified-heading strong,
+.guardian-emergency .guardian-verified-heading strong,
+.guardian-commercial .guardian-verified-heading strong {
+  color: #ffffff !important;
+  font-size: 1.05rem;
+}
+
+.guardian-security-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 12px;
+}
+
+.guardian-security-grid > * {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px;
+  background: rgba(255,255,255,.035);
+}
+
+.guardian-security-grid strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #35d4bd !important;
+  font-size: 1.3rem;
+}
+
+.guardian-security-grid span {
+  display: block;
+  color: rgba(255,255,255,.72) !important;
+  font-size: .86rem;
+  line-height: 1.55;
+}
+
+.guardian-emergency {
+  border-color: rgba(240,190,70,.22);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(240,190,70,.07),
+      rgba(255,255,255,.035)
+    );
+}
+
+.guardian-emergency p,
+.guardian-commercial p {
+  color: rgba(255,255,255,.78) !important;
+  line-height: 1.7;
+}
+
+.guardian-commercial-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.guardian-commercial-grid > * {
+  padding: 17px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px;
+  background: rgba(255,255,255,.035);
+}
+
+.guardian-commercial-grid strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #ffffff !important;
+}
+
+.guardian-commercial-grid span {
+  display: block;
+  color: rgba(255,255,255,.7) !important;
+  font-size: .86rem;
+  line-height: 1.5;
+}
+
+.guardian-commercial-note,
+.guardian-verification-note {
+  margin-top: 20px !important;
+  color: rgba(255,255,255,.62) !important;
+  font-size: .86rem;
+  line-height: 1.65;
+}
+
+.guardian-section .guardian-verified {
+  margin-top: 30px;
+  background: rgba(255,255,255,.055);
+  border-color: rgba(255,255,255,.12);
+}
+
+.guardian-section .guardian-verification-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 12px;
+}
+
+.guardian-section .guardian-verification-grid > * {
+  min-height: 76px;
+  padding: 15px;
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 12px;
+  background: rgba(255,255,255,.035);
+}
+
+.guardian-section .guardian-verification-grid strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #35d4bd !important;
+  font-size: 1.05rem;
+}
+
+.guardian-section .guardian-verification-grid span {
+  display: block;
+  color: rgba(255,255,255,.7) !important;
+  font-size: .78rem;
+  line-height: 1.4;
+}
+
+.guardian-section .guardian-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.guardian-section .guardian-status {
+  margin: 0;
+  color: #35d4bd !important;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .09em;
+}
+
+.guardian-section .guardian-footer .button {
+  flex-shrink: 0;
+}
+
+
+/* Guardian-Core mobile */
+
+@media (max-width: 900px) {
+  .guardian-section .guardian-capabilities,
+  .guardian-commercial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guardian-security-grid,
+  .guardian-section .guardian-verification-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .guardian-card {
+    grid-template-columns: 1fr;
+    padding: 28px 22px;
+    gap: 20px;
+  }
+
+  .guardian-icon {
+    width: 62px;
+    height: 62px;
+  }
+
+  .guardian-security-grid,
+  .guardian-section .guardian-verification-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guardian-security-model,
+  .guardian-emergency,
+  .guardian-commercial,
+  .guardian-section .guardian-verified {
+    padding: 20px;
+  }
+
+  .guardian-section .guardian-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .guardian-section .guardian-footer .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
