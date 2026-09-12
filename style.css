@@ -3300,3 +3300,555 @@ footer a:hover {
   }
 }
 
+
+/* =========================================================
+   EMPOWER DEVELOPERS — 14H OLD DESIGN RESTORE
+   Light professional section system
+   ========================================================= */
+
+/* ---------- GLOBAL ---------- */
+
+:root {
+  --ed-navy: #062b52;
+  --ed-gold: #8a5a00;
+  --ed-blue-gray: #E6EDF5;
+  --ed-warm-sand: #F7F3EB;
+  --ed-sage: #E6F0EA;
+  --ed-white: #ffffff;
+}
+
+/* ---------- PAGE ---------- */
+
+html,
+body {
+  background: var(--ed-blue-gray) !important;
+  color: var(--ed-navy) !important;
+}
+
+body {
+  background-image: none !important;
+}
+
+/* ---------- HEADER ---------- */
+
+.site-header {
+  background: rgba(255,255,255,.94) !important;
+  background-image: none !important;
+  color: var(--ed-navy) !important;
+  border-bottom: 1px solid rgba(6,43,82,.10);
+  box-shadow: 0 8px 24px rgba(6,43,82,.08);
+}
+
+.site-header .brand-text strong,
+.site-header .brand-text strong .brand-empower,
+.site-header .brand-text strong .brand-developers {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 33px !important;
+  font-weight: 900 !important;
+}
+
+.site-header .brand-text .brand-empower {
+  color: #062b52 !important;
+  -webkit-text-stroke: 1px #8a5a00 !important;
+  text-shadow: 3px 3px 5px rgba(4,34,61,.35) !important;
+}
+
+.site-header .brand-text .brand-developers {
+  color: #8a5a00 !important;
+  -webkit-text-stroke: 1px #062b52 !important;
+  text-shadow: 3px 3px 5px rgba(4,34,61,.35) !important;
+}
+
+.site-header .brand-text > span {
+  color: #174563 !important;
+  font-size: 15px !important;
+}
+
+.site-nav a {
+  color: #062b52 !important;
+}
+
+.site-nav a:hover {
+  color: #8a5a00 !important;
+}
+
+/* ---------- HERO — SOFT BLUE GRAY ---------- */
+
+.hero {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(230,237,245,.98),
+      rgba(238,246,250,.98)
+    ) !important;
+  color: var(--ed-navy) !important;
+  border-bottom: 1px solid rgba(6,43,82,.08);
+}
+
+.hero h1 {
+  color: #062b52 !important;
+}
+
+.hero p,
+.hero-lead {
+  color: #294d68 !important;
+}
+
+.hero .eyebrow,
+.hero .kicker,
+.hero small {
+  color: #8a5a00 !important;
+  font-weight: 800 !important;
+  letter-spacing: .12em;
+}
+
+.hero .button.primary {
+  background: #8a5a00 !important;
+  color: #ffffff !important;
+  border-color: #8a5a00 !important;
+}
+
+.hero .button.secondary {
+  background: rgba(255,255,255,.72) !important;
+  color: #062b52 !important;
+  border-color: rgba(6,43,82,.22) !important;
+}
+
+.hero-capability {
+  background: rgba(255,255,255,.72) !important;
+  color: #062b52 !important;
+  border-color: rgba(6,43,82,.10) !important;
+}
+
+/* ---------- MISSION — WARM SAND ---------- */
+
+#mission {
+  background: #F7F3EB !important;
+  color: #062b52 !important;
+}
+
+#mission .section-heading h2,
+#mission .mission-main h3 {
+  color: #062b52 !important;
+}
+
+#mission .mission-main p {
+  color: #35556a !important;
+}
+
+#mission .mission-statement {
+  background: rgba(255,255,255,.72) !important;
+  border-color: rgba(138,90,0,.18) !important;
+}
+
+#mission .mission-statement span {
+  color: #8a5a00 !important;
+}
+
+#mission .mission-statement strong {
+  color: #062b52 !important;
+}
+
+/* ---------- CAPABILITIES — SOFT BLUE GRAY ---------- */
+
+#capabilities {
+  background: #E6EDF5 !important;
+}
+
+#capabilities .section-heading h2 {
+  color: #062b52 !important;
+}
+
+#capabilities .section-heading > span {
+  display: none !important;
+}
+
+#capabilities .card-number {
+  display: none !important;
+}
+
+#capabilities .card {
+  background: rgba(255,255,255,.78) !important;
+  border-color: rgba(6,43,82,.10) !important;
+  box-shadow: 0 12px 30px rgba(6,43,82,.07) !important;
+}
+
+#capabilities .card h3 {
+  color: #062b52 !important;
+}
+
+#capabilities .card p {
+  color: #35556a !important;
+}
+
+/* ---------- APPROACH — WARM SAND ---------- */
+
+#approach {
+  background: #F7F3EB !important;
+}
+
+#approach .section-heading h2,
+#approach .approach-content h3 {
+  color: #062b52 !important;
+}
+
+#approach .approach-content p {
+  color: #35556a !important;
+}
+
+/* ---------- GUARDIAN-CORE ---------- */
+
+/* Keep Guardian-Core visually premium, but place it inside
+   the same light corporate design system. */
+
+#guardian-core {
+  background: #E6EDF5 !important;
+}
+
+#guardian-core .guardian-card {
+  background:
+    linear-gradient(
+      135deg,
+      #062b52 0%,
+      #0b4165 58%,
+      #126078 100%
+    ) !important;
+  color: #ffffff !important;
+  box-shadow: 0 18px 45px rgba(6,43,82,.18) !important;
+}
+
+#guardian-core .guardian-content,
+#guardian-core .guardian-content p,
+#guardian-core .guardian-content h2,
+#guardian-core .guardian-content h3,
+#guardian-core .guardian-content strong {
+  color: #ffffff !important;
+}
+
+#guardian-core .guardian-content > p {
+  color: rgba(255,255,255,.82) !important;
+}
+
+#guardian-core .guardian-capabilities > *,
+#guardian-core .guardian-security-model,
+#guardian-core .guardian-emergency,
+#guardian-core .guardian-commercial,
+#guardian-core .guardian-verified {
+  background: rgba(255,255,255,.055) !important;
+}
+
+/* ---------- HIBBA — SOFT SAGE ---------- */
+
+#hibha {
+  background: #E6F0EA !important;
+}
+
+#hibha .section-heading h2,
+#hibha .hibha-card h3 {
+  color: #062b52 !important;
+}
+
+#hibha .hibha-card {
+  background: rgba(255,255,255,.78) !important;
+  border-color: rgba(6,43,82,.10) !important;
+  box-shadow: 0 12px 30px rgba(6,43,82,.07) !important;
+}
+
+#hibha .hibha-card p,
+#hibha .hibha-mission p {
+  color: #35556a !important;
+}
+
+#hibha .hibha-kicker {
+  color: #8a5a00 !important;
+}
+
+/* ---------- CONTACT — SOFT SAGE ---------- */
+
+#contact {
+  background: #E6F0EA !important;
+}
+
+#contact .section-heading h2 {
+  color: #062b52 !important;
+}
+
+/* ---------- FOOTER ---------- */
+
+.site-footer {
+  background: #062b52 !important;
+  color: #ffffff !important;
+}
+
+.site-footer a,
+.site-footer p,
+.site-footer span,
+.site-footer strong {
+  color: rgba(255,255,255,.86) !important;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 720px) {
+
+  .site-header .brand-text strong,
+  .site-header .brand-text strong .brand-empower,
+  .site-header .brand-text strong .brand-developers {
+    font-size: 25px !important;
+  }
+
+  .site-header .brand-text > span {
+    font-size: 12px !important;
+  }
+
+  .hero {
+    background:
+      linear-gradient(
+        160deg,
+        #E6EDF5,
+        #EEF6FA
+      ) !important;
+  }
+
+}
+
+/* =========================================================
+   RELATIONSHIP & SOCIAL DISCOVERY PLATFORM
+   Commercial portfolio presentation
+   ========================================================= */
+
+#relationship-platform {
+  background: #F7F3EB !important;
+}
+
+#relationship-platform .section-heading > span {
+  display: none !important;
+}
+
+.relationship-platform-card {
+  padding: 42px;
+  border: 1px solid rgba(6,43,82,.10);
+  border-radius: 22px;
+  background: rgba(255,255,255,.76);
+  box-shadow: 0 16px 40px rgba(6,43,82,.08);
+}
+
+.relationship-platform-content {
+  color: #062b52;
+}
+
+.relationship-platform-content > .eyebrow {
+  color: #8a5a00 !important;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.relationship-platform-content h3 {
+  max-width: 900px;
+  margin: 14px 0 16px;
+  color: #062b52 !important;
+  font-size: clamp(1.7rem, 3vw, 2.45rem);
+  line-height: 1.12;
+}
+
+.relationship-platform-content > p {
+  max-width: 900px;
+  color: #35556a !important;
+  line-height: 1.75;
+}
+
+.relationship-platform-features {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.relationship-platform-features > div {
+  padding: 20px;
+  border: 1px solid rgba(6,43,82,.09);
+  border-radius: 14px;
+  background: rgba(230,237,245,.62);
+}
+
+.relationship-platform-features strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #062b52 !important;
+}
+
+.relationship-platform-features span {
+  display: block;
+  color: #35556a !important;
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.relationship-platform-tech,
+.relationship-platform-languages,
+.relationship-platform-commercial {
+  margin-top: 26px;
+  padding: 24px;
+  border: 1px solid rgba(6,43,82,.09);
+  border-radius: 16px;
+  background: rgba(230,237,245,.45);
+}
+
+.relationship-platform-tech-heading {
+  margin-bottom: 18px;
+}
+
+.relationship-platform-tech-heading span,
+.relationship-platform-commercial-heading span {
+  display: block;
+  margin-bottom: 6px;
+  color: #8a5a00 !important;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.relationship-platform-tech-heading strong,
+.relationship-platform-commercial-heading strong {
+  color: #062b52 !important;
+  font-size: 1.05rem;
+}
+
+.relationship-platform-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 12px;
+}
+
+.relationship-platform-tech-grid > div {
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.68);
+}
+
+.relationship-platform-tech-grid strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #062b52 !important;
+}
+
+.relationship-platform-tech-grid span,
+.relationship-platform-languages p,
+.relationship-platform-commercial p {
+  color: #35556a !important;
+  line-height: 1.6;
+}
+
+.relationship-platform-value {
+  margin: 20px 0;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: #062b52;
+}
+
+.relationship-platform-value strong {
+  display: block;
+  color: #ffffff !important;
+  font-size: 1.55rem;
+}
+
+.relationship-platform-value span {
+  color: rgba(255,255,255,.72) !important;
+  font-size: .82rem;
+}
+
+.relationship-platform-commercial-note {
+  margin-top: 16px !important;
+  color: #5b6e7c !important;
+  font-size: .84rem;
+}
+
+@media (max-width: 720px) {
+
+  .relationship-platform-card {
+    padding: 24px 18px;
+  }
+
+  .relationship-platform-features,
+  .relationship-platform-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .relationship-platform-tech,
+  .relationship-platform-languages,
+  .relationship-platform-commercial {
+    padding: 19px;
+  }
+
+}
+
+/* =========================================================
+   FINAL PUBLIC COMMERCIAL PRESENTATION
+   Guardian-Core = Flagship Product
+   ========================================================= */
+
+#guardian-core {
+  background: #062b52 !important;
+}
+
+#guardian-core .section-heading > span {
+  display: none !important;
+}
+
+#guardian-core .guardian-card {
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 24px 60px rgba(6,43,82,.24);
+}
+
+#guardian-core .guardian-content > .eyebrow {
+  color: #d6a84f !important;
+}
+
+#guardian-core .guardian-content h3,
+#guardian-core .guardian-content p,
+#guardian-core .guardian-tagline {
+  color: #ffffff !important;
+}
+
+#guardian-core .guardian-capabilities > div,
+#guardian-core .guardian-security-model > div,
+#guardian-core .guardian-use,
+#guardian-core .guardian-verified,
+#guardian-core .guardian-commercial {
+  border-color: rgba(255,255,255,.14);
+}
+
+#guardian-core .guardian-capabilities strong,
+#guardian-core .guardian-security-model strong,
+#guardian-core .guardian-commercial-heading strong {
+  color: #ffffff !important;
+}
+
+#guardian-core .guardian-capabilities span,
+#guardian-core .guardian-security-model span,
+#guardian-core .guardian-use p,
+#guardian-core .guardian-verified p,
+#guardian-core .guardian-commercial p {
+  color: rgba(255,255,255,.76) !important;
+}
+
+#guardian-core .guardian-commercial-heading span {
+  color: #d6a84f !important;
+}
+
+#relationship-platform {
+  background: #F7F3EB !important;
+}
+
+.relationship-platform-note,
+.relationship-platform-commercial-note {
+  color: #35556a !important;
+}
+
+@media (max-width: 720px) {
+  #guardian-core .guardian-card {
+    padding: 24px 18px;
+  }
+}
